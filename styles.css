@@ -13,7 +13,7 @@ body { margin: 0; background: var(--ink); color: var(--paper); font-family: Inte
 a { color: inherit; }
 .wrap { width: min(calc(100% - 40px), var(--max)); margin-inline: auto; }
 .hero { min-height: 100svh; position: relative; display: grid; align-content: space-between; overflow: hidden; border-bottom: 1px solid var(--line); }
-.hero-image { position: absolute; inset: 0; background: url('assets/slides/source-slide-01.png') center / cover no-repeat; opacity: .63; transform: scale(1.035); }
+.hero-image { position: absolute; inset: 0; background: url('source-slide-01.png') center / cover no-repeat; opacity: .63; transform: scale(1.035); }
 .hero-shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(5,9,14,.98) 0%, rgba(5,9,14,.9) 38%, rgba(5,9,14,.25) 75%), linear-gradient(0deg, rgba(5,9,14,.8), transparent 48%); }
 .nav, .hero-copy { position: relative; z-index: 2; }
 .nav { display: flex; justify-content: space-between; align-items: center; padding-block: 28px; border-bottom: 1px solid rgba(255,255,255,.12); }

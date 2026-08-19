@@ -4,7 +4,7 @@ const counter = document.querySelector('#slide-count');
 const thumbs = document.querySelector('#thumbs');
 let current = 1;
 
-const pathFor = n => `assets/slides/source-slide-${String(n).padStart(2, '0')}.png`;
+const pathFor = n => `source-slide-${String(n).padStart(2, '0')}.png`;
 
 function showSlide(n) {
   current = ((n - 1 + total) % total) + 1;
